@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    background-image: url(images/almost-famous-triple-nom.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+header {
+    display: flex;
+    position: fixed;
+    width: 100%;
+}
+
+nav {
+    background-color: #F2D43D;
+    text-align: right;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    width: 100%;
+}
+
+nav a {
+    text-decoration: none;
+    padding: 0px 15px;
+    color: black;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.red-text {
+    color: #CB2026;
+}
+
+main {
+    text-align: center;
+    
+    /* background-color: gray; */
+}
+
+main img {
+    text-align: center;
+    height: 460px;
+    width: 460px;
+    padding-top: 160px;
+    padding-bottom: 160px;
+}
+
+main section {
+    background-color: #383739;
+    padding-left: 240px;
+    padding-right: 240px;
+    padding-top: 80px;
+    padding-bottom: 100px;
+}
+
+section a {
+    background-color: #F2D43D;
+    text-decoration: none;
+    padding: 10px 50px;
+    margin-top: 20px;
+}
+
+section p {
+    padding-bottom: 30px;
+}
+
+footer {
+    background-color: #F2D43D;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 240px;
+    padding-right: 240px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.address {
+    width: 200px;
+}
+
+.address p {
+    color: black;
+}
+
+h1 {
+    font-size: 84px;
+    font-family: 'Cutive', serif;
+    color: white;
+    padding-bottom: 5px;
+}
+
+p {
+    font-size: 14px;
+    font-family: 'Cutive', serif;
+    color: white;
+}
+
+a {
+    font-family: 'Cutive', serif;
+    color: black;
+}
